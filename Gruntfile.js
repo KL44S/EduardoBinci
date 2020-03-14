@@ -5,9 +5,15 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
         less: {
             development: {
-                files: {
-                    'css/styles.css': 'src/less/styles.less'
-                }
+                files: [{
+                    expand: true,
+                    cwd: '.',
+                    src: ['src/less/*.less'],
+                    dest: 'css',
+                    rename: function (dst, src) {                     
+                        return dst + '/' + src.replace(/^.*[\\\/]/, '').replace('.less', '.css');
+                    }
+                }]
             },
         },
         cssmin: {

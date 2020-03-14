@@ -215,10 +215,25 @@ body {
 }
 
 .contact {
+    position: absolute;
     font-family: #fonts[oswald];
-    background-color: #colors[secondarySub];
-    color: #colors[primary];
+    color: #colors[secondarySub];
     h1 {
         text-align: center;
+        font-weight: 400;
+    }
+    h2,
+    span {
+        font-weight: 300;
+    }
+}
+
+.contact-item {
+    @padding: 5px;
+    display: flex;
+    justify-content: center;
+    * {
+        padding-left: @padding;
+        padding-right: @padding;
     }
 }
