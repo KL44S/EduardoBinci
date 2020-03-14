@@ -81,13 +81,6 @@ body {
     } 
 }
 
-.no-hover:hover,
-.no-hover:hover * {
-    background-color: transparent !important;
-    color: #colors[primary];
-    cursor: default;
-}
-
 .logo {
     width: 60px;
 }
@@ -113,6 +106,13 @@ body {
     &:active a {
         color: #colors[primary];
     }
+}
+
+.navbar-item.no-hover:hover,
+.navbar-item.no-hover:hover * {
+    background-color: transparent !important;
+    color: #colors[secondary];
+    cursor: default;
 }
 
 .navbar-logo,
