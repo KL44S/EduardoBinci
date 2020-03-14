@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Cormorant', serif;
+  font-family: 'Oswald', sans-serif;
 }
 .navbar {
   display: flex;
@@ -73,18 +73,21 @@ body {
 .navbar-item a {
   color: #555;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 300;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
-  font-size: 20px;
+  font-size: 17px;
+  text-transform: uppercase;
 }
 .navbar-item:hover,
-.navbar-item:active {
+.navbar-item:active,
+.navbar-item.active {
   background-color: #ccc;
   cursor: pointer;
 }
 .navbar-item:hover a,
-.navbar-item:active a {
+.navbar-item:active a,
+.navbar-item.active a {
   color: white;
 }
 .navbar-item.no-hover:hover,
@@ -104,11 +107,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("../images/me.jpg");
   width: 100%;
   height: 500px;
-  background-position: center;
-  background-size: cover;
+  background-position: center !important;
+  background-size: cover !important;
+}
+.hero.services {
+  background: url("../images/law.jpg");
+}
+.hero.main {
+  background: url("../images/justice.jpg");
+}
+.hero.contact {
+  background: url("../images/contact.jpg");
+}
+.hero.me {
+  background: url("../images/me.jpg");
 }
 .hero-square {
   width: 600px;
@@ -163,18 +177,21 @@ body {
 .sidebar-item a {
   color: #ccc;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 300;
   -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s;
-  font-size: 20px;
+  font-size: 17px;
+  text-transform: uppercase;
 }
 .sidebar-item:hover,
-.sidebar-item:active {
+.sidebar-item:active,
+.sidebar-item.active {
   background-color: white;
   cursor: pointer;
 }
 .sidebar-item:hover a,
-.sidebar-item:active a {
+.sidebar-item:active a,
+.sidebar-item.active a {
   color: #555;
 }
 .sidebar-close {
@@ -184,7 +201,6 @@ body {
   color: #ccc;
 }
 .contact {
-  position: absolute;
   font-family: 'Oswald', sans-serif;
   color: #555;
 }
@@ -203,4 +219,9 @@ body {
 .contact-item * {
   padding-left: 5px;
   padding-right: 5px;
+}
+.map {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
 }

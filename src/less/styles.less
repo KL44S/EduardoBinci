@@ -25,7 +25,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: #fonts[cormorant];
+    font-family: #fonts[oswald];
 }
 
 .navbar {
@@ -91,19 +91,22 @@ body {
     a {
         color: #colors[secondarySub];
         text-decoration: none;
-        font-weight: 500;
+        font-weight: 300;
         -webkit-transition: #navbar[colorTransition];
         transition: #navbar[colorTransition];
-        font-size: 20px;
+        font-size: 17px;
+        text-transform: uppercase;
     }
     &:hover,
-    &:active {
+    &:active,
+    &.active {
         background-color: #colors[primarySub];
         cursor: pointer;
     }
 
     &:hover a,
-    &:active a {
+    &:active a,
+    &.active a {
         color: #colors[primary];
     }
 }
@@ -124,14 +127,25 @@ body {
 }
 
 .hero {
+    &.services {
+        background: url("../images/law.jpg");
+    }
+    &.main {
+        background: url("../images/justice.jpg");
+    }
+    &.contact {
+        background: url("../images/contact.jpg");
+    }
+    &.me {
+        background: url("../images/me.jpg");
+    }
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("../images/me.jpg");
     width: 100%;
     height: 500px;
-    background-position: center;
-    background-size: cover; 
+    background-position: center !important;
+    background-size: cover !important; 
 }
 
 .hero-square {
@@ -191,18 +205,21 @@ body {
     a {
         color: #colors[primarySub];
         text-decoration: none;
-        font-weight: 500;
+        font-weight: 300;
         -webkit-transition: #navbar[backgroundTransition];
         transition: #navbar[backgroundTransition];
-        font-size: 20px;
+        font-size: 17px;
+        text-transform: uppercase;
     }
     &:hover,
-    &:active {
+    &:active,
+    &.active  {
         background-color: #colors[primary];
         cursor: pointer;
     }
     &:hover a,
-    &:active a {
+    &:active a,
+    &.active a {
         color: #colors[secondarySub];
     }
 }
@@ -215,7 +232,6 @@ body {
 }
 
 .contact {
-    position: absolute;
     font-family: #fonts[oswald];
     color: #colors[secondarySub];
     h1 {
@@ -236,4 +252,10 @@ body {
         padding-left: @padding;
         padding-right: @padding;
     }
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
 }
