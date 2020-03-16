@@ -11,12 +11,14 @@
 
 .grid-col {
     float: left;
+    visibility: visible;
 }
 
 @media @200px {
     .grid-col-xs-0 {
         .grid-col();
-        display: none;
+        width: 0%;
+        visibility: hidden;
     }
     .grid-col-xs-1 {
         .grid-col();
@@ -39,7 +41,8 @@
 @media @480px {
     .grid-col-sm-0 {
         .grid-col();
-        display: none;
+        width: 0%;
+        visibility: hidden;
     }
     .grid-col-sm-1 {
         .grid-col();
@@ -62,7 +65,8 @@
 @media @720px {
     .grid-col-md-0 {
         .grid-col();
-        display: none;
+        width: 0%;
+        visibility: hidden;
     }
     .grid-col-md-1 {
         .grid-col();
@@ -85,7 +89,8 @@
 @media @1080px {
     .grid-col-lg-0 {
         .grid-col();
-        display: none;
+        width: 0%;
+        visibility: hidden;
     }
     .grid-col-lg-1 {
         .grid-col();

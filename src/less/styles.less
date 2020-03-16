@@ -3,6 +3,7 @@
     primarySub: #ccc;
     secondary: black;
     secondarySub: #555;
+    alternative: #333;
 }
 
 #fonts() {
@@ -13,6 +14,7 @@
 
 #navbar() {
     backgroundTransition: background-color .5s;
+    heightTransition: max-height .3s;
     colorTransition: color .5s;
     padding: 10px;
 }
@@ -29,11 +31,18 @@ body {
 }
 
 .navbar {
+    position: fixed;
     display: flex;
     width: 100%;
     height: 90px;
+    max-height: 90px;
+    transition: #navbar[heightTransition];
+    -webkit-transition: #navbar[heightTransition];
     background-color: #colors[primary];
     border-bottom: solid 1px #colors[primarySub];
+    &.collapse {
+        max-height: 60px;
+    }
 }
 
 .navbar-section {
@@ -64,10 +73,20 @@ body {
     }
 }
 
+.logo {
+    font-family: #fonts[saintDelafield];
+    font-size: 40px;
+    span {
+        margin-top: 12px;
+        white-space: nowrap;
+        color: #colors[primary];
+    }
+}
+
 .navbar-logo {
     font-family: #fonts[saintDelafield];
-    display: flex;
     font-size: 40px;
+    display: flex;
     span {
         margin-top: 12px;
     }
@@ -232,6 +251,7 @@ body {
 }
 
 .contact {
+    overflow: hidden;
     font-family: #fonts[oswald];
     color: #colors[secondarySub];
     h1 {
@@ -254,8 +274,49 @@ body {
     }
 }
 
+.footer {
+    @padding: 25px;
+    display: flex;
+    font-family: #fonts[oswald];
+    color: #colors[primarySub];
+    h1 {
+        font-size: 20px;
+        color: #colors[primary];
+    }
+    span {
+        font-weight: 300;
+    }
+    overflow: hidden;
+    padding-top: @padding;
+    padding-bottom: @padding;
+    background-color: #colors[alternative];
+    margin-top: 15px;
+}
+
+.footer-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & > div {
+        display: flex;       
+        flex-direction: column;
+    }
+}
+
+.footer-item {
+    @paddingVertical: 10px;
+    @paddingHorizontal: 5px;
+    display: flex;
+    * {
+        padding-left: @paddingHorizontal;
+        padding-right: @paddingHorizontal;
+    }
+    padding-top: @paddingVertical;
+    padding-bottom: @paddingVertical;
+}
+
 .map {
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 20px;
 }
