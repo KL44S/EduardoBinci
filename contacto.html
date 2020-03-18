@@ -1,6 +1,7 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="css/grid.min.css">
 <link rel="stylesheet" type="text/css" href="css/styles.min.css">
 <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400|Mrs+Saint+Delafield|Cormorant:400,700&display=swap" rel="stylesheet">
@@ -11,7 +12,7 @@
         <div class="container">
 
             <navbar id="navbar" class="navbar">
-    <div class="navbar-option-btn" onclick="openSidebar();">
+    <div id="openSidebar" class="navbar-option-btn">
         <i><img src="images/opt.png"></i>
     </div>
 
@@ -29,7 +30,7 @@
             <a href="sobre.html">Sobre mi</a>
         </div>
         <div class="navbar-item">
-            <a href="servicios.html">&#193;reas de pr&#225;ctica</a>
+            <a href="servicios.html">Servicios</a>
         </div>
         <div class="navbar-item">
             <a href="contacto.html">Contacto</a>
@@ -39,7 +40,7 @@
 
 <navbar id="sidebar" class="sidebar">
     
-    <div class="sidebar-close" onclick="closeSidebar();">
+    <div id="closeSidebar" class="sidebar-close">
         <i class="icon-close"><img src="images/close.png"></i>
     </div>
     
@@ -51,7 +52,7 @@
             <a href="sobre.html">Sobre mi</a>
         </div>
         <div class="sidebar-item">
-            <a href="servicios.html">&#193;reas de pr&#225;ctica</a>
+            <a href="servicios.html">Servicios</a>
         </div>
         <div class="sidebar-item">
             <a href="contacto.html">Contacto</a>
@@ -61,15 +62,15 @@
 </navbar>
 
             <div class="hero contact">
-                <!--<div class="hero-square">
-                    <h1>Dr. Eduardo Binci</h1>
-                    <h2>Abogado especializado en derecho civil y comercial</h2>
-                </div>-->
+                <div class="hero-square">
+    <h1><span>Dr.</span> Eduardo Binci</h1>
+    <h2>Abogado especializado en derecho civil y comercial</h2>
+</div>
             </div>
 
             <div class="section contact">
-    <div class="grid-row">
-        <h1><span>INFORMACI&#211;N</span> DE CONTACTO</h1>
+    <div class="title">
+        <h1><span>INFORMACIÓN</span> DE CONTACTO</h1>
     </div>
     
     <div class="contact-container">
@@ -83,15 +84,17 @@
                     <span>Florida 5545</span>
                 </div>
             </div>
+            <div class="contact-item-group separator"></div>
             <div class="contact-item-group">
                 <div class="contact-item">
-                    <h2>TEL&#201;FONO</h2>
+                    <h2>TELÉFONO</h2>
                 </div>
                 <div class="contact-item">
                     <img src="images/whatsapp-white.png">
                     <span>11-5975-0023</span>
                 </div>
             </div>
+            <div class="contact-item-group separator"></div>
             <div class="contact-item-group">
                 <div class="contact-item">
                     <h2>EMAIL</h2>
@@ -127,9 +130,6 @@
         </div>
     </div>
     <div class="grid-col-lg-2 grid-col-md-2 grid-col-sm-0 grid-col-xs-0 footer-section">
-        <div class="logo">
-            <span>Dr. Eduardo Binci</span>
-        </div>
     </div>
 </footer>
         </div>

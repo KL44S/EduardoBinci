@@ -122,9 +122,10 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 500px;
+  height: 450px;
   background-position: center !important;
   background-size: cover !important;
+  padding-top: 90px;
 }
 .hero.services {
   background: url("../images/law.jpg");
@@ -144,19 +145,23 @@ body {
   padding: 25px;
   background-color: rgba(0, 0, 0, 0.8);
   text-align: center;
-  font-family: 'Cormorant', serif;
+  font-family: 'Oswald', sans-serif;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
+.hero-square span {
+  color: #CA4E60;
+  font-weight: 400 !important;
+}
 .hero-square h1 {
   font-size: 45px;
-  font-weight: 700;
+  font-weight: 400;
   color: white;
   margin: 5px;
 }
 .hero-square h2 {
-  font-weight: 400;
+  font-weight: 200 !important;
   font-size: 22px;
   color: #ccc;
   margin: 5px;
@@ -215,23 +220,7 @@ body {
   color: #ccc;
 }
 .contact {
-  background-color: black;
-  overflow: hidden;
-  font-family: 'Oswald', sans-serif;
-  color: #ccc;
   padding-bottom: 20px;
-}
-.contact h1 {
-  text-align: center;
-  font-weight: 400;
-}
-.contact h1 span {
-  font-weight: 300;
-  color: #CA4E60;
-}
-.contact h2,
-.contact span {
-  font-weight: 300;
 }
 .contact-container {
   display: flex;
@@ -242,12 +231,33 @@ body {
   flex-direction: column;
   align-items: flex-start;
 }
+.contact-item-group.separator {
+  border-right: solid 1px #ccc;
+}
 .contact-item {
   display: flex;
 }
 .contact-item * {
   padding-left: 5px;
   padding-right: 5px;
+}
+.contact-item h2 {
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-size: 22px;
+}
+@media (min-width: 10px) {
+  .contact-item h2 {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 650px) {
+  .contact-item h2 {
+    margin-top: 0;
+  }
+}
+.contact-item span {
+  font-weight: 300;
 }
 .contact-content {
   display: flex;
@@ -274,6 +284,7 @@ body {
   padding-top: 25px;
   padding-bottom: 25px;
   background-color: #333;
+  border: solid 1px #555;
 }
 .footer h1 {
   font-size: 20px;
@@ -302,10 +313,16 @@ body {
   padding-right: 5px;
 }
 .map {
-  background-color: black;
   display: flex;
   justify-content: center;
   padding-bottom: 20px;
+  padding-top: 20px;
+}
+.section {
+  overflow: hidden;
+  color: #ccc;
+  border-top: solid 1px #333;
+  background-color: black;
 }
 @media (min-width: 10px) {
   .section {
@@ -319,23 +336,22 @@ body {
     padding-right: 20%;
   }
 }
-.introduction {
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-}
-.introduction .title {
+.section .title {
   display: flex;
   justify-content: center;
   text-transform: uppercase;
   color: #ccc;
 }
-.introduction .title h1 {
+.section .title h1 {
   font-weight: 400;
 }
-.introduction .title h1 span {
+.section .title h1 span {
   font-weight: 300;
   color: #CA4E60;
+}
+.introduction {
+  display: flex;
+  flex-direction: column;
 }
 .introduction .phrase {
   display: flex;
@@ -347,9 +363,54 @@ body {
   font-family: 'Mrs Saint Delafield', cursive;
   display: flex;
   justify-content: flex-end;
-  font-size: 40px;
+  font-size: 35px;
+  margin-top: 15px;
   color: white;
 }
-.separator {
-  border: solid 1px #333;
+.index-services {
+  padding-bottom: 20px;
+}
+.index-services .bullets {
+  display: flex;
+  justify-content: center;
+}
+.index-services .bullets li {
+  font-size: 18px;
+  color: white;
+  font-weight: 100;
+  padding-top: 10px;
+}
+.index-services .bullets li:first-child {
+  padding-top: 0;
+}
+.index-services .bullets ul {
+  margin-top: 0;
+  padding-left: 20px;
+  list-style-type: circle;
+}
+.index-services .btn {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.index-services .btn button {
+  padding: 15px;
+  background-color: black;
+  border: solid 1px #ccc;
+  color: #ccc;
+  font-weight: 400;
+  font-family: 'Oswald', sans-serif;
+  transition: background-color 0.5s, color 0.5s;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  text-transform: uppercase;
+  width: 230px;
+}
+.index-services .btn button:hover,
+.index-services .btn button:active,
+.index-services .btn button:focus {
+  cursor: pointer;
+  background-color: white;
+  border: solid 1px white;
+  color: #555;
+  outline: none;
 }

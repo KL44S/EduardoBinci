@@ -1,12 +1,6 @@
-function closeSidebar() {
-    document.getElementById("sidebar").classList.remove("open");
-};
-
-function openSidebar() {
-    document.getElementById("sidebar").classList.add("open");
-};
-
 (function() {
+    createSidebarEvents();
+    createBtnEvents();
     scrollProcess();
     navbarItemsProcess();
 
@@ -33,6 +27,28 @@ function openSidebar() {
                 }
             }
         };
+    };
+
+    function createBtnEvents() {
+        var btn = document.getElementById("more");
+        if (btn) {
+            document.getElementById("more").onclick = function() {
+                window.location = "servicios.html";
+            };
+        };  
+    };
+
+    function createSidebarEvents() {
+        document.getElementById("openSidebar").onclick = openSidebar;
+        document.getElementById("closeSidebar").onclick = closeSidebar;
+    };
+
+    function closeSidebar() {
+        document.getElementById("sidebar").classList.remove("open");
+    };
+    
+    function openSidebar() {
+        document.getElementById("sidebar").classList.add("open");
     };
 
     function getCurrentPage() {
