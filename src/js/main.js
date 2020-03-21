@@ -3,6 +3,19 @@
     createBtnEvents();
     scrollProcess();
     navbarItemsProcess();
+    processFooterStyles();
+
+    function processFooterStyles() {
+        var sectionDivsNumber = document.getElementsByClassName("section").length;
+        var preFooter = document.getElementById("preFooter");
+        
+        if (sectionDivsNumber % 2) {
+            preFooter.classList.add("odd-bk");
+        }
+        else {
+            preFooter.classList.add("even-bk");
+        };
+    };
 
     function processLinks(elements, activeClass) {
         for (var i = 0; i < elements.length; i++) {

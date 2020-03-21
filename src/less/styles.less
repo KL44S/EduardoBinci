@@ -262,7 +262,8 @@ body {
     @primaryLineWidth: 3px;
     @secondaryLineWidth: 6px;
 
-    .section:nth-child(odd) {
+    .section:nth-child(odd),
+    .odd-bk {
         background-image: repeating-linear-gradient(
             @inclination * -1,
             @primaryColor,
@@ -270,7 +271,8 @@ body {
             @tertiaryColor @primaryLineWidth,
             @tertiaryColor @secondaryLineWidth);
     }
-    .section:nth-child(even) {
+    .section:nth-child(even),
+    .even-bk {
         background-image: repeating-linear-gradient(
             @inclination,
             @secondaryColor, 
@@ -294,13 +296,12 @@ body {
     flex-direction: column;
     align-items: flex-start;
     &.separator {
-        border-right: solid 1px #colors[primarySub];
+        border-right: solid 1px #colors[alternative];
     }
 }
 
 .contact-item {
     @padding: 5px;
-    @fontWeight: 300;
     display: flex;
     * {
         padding-left: @padding;
@@ -314,11 +315,11 @@ body {
             margin-top: 0;
         }
         margin-bottom: 10px;
-        font-weight: @fontWeight;
-        font-size: 22px;
+        font-weight: 400;
+        font-size: 21px;
     }
     span {
-        font-weight: @fontWeight;
+        font-weight: 300;
     }
 }
 
@@ -337,31 +338,47 @@ body {
 }
 
 .footer {
+    border: none;
+}
+
+.pre-footer {
+    display: flex;
+    padding-top : 15px;
+    margin: 0;
+    justify-content: center;
+    img {
+        width: 100px;
+        margin-bottom: -1px;
+    }
+}
+
+.footer-content {
     @padding: 25px;
     display: flex;
     font-family: #fonts[oswald];
     h1 {
         font-size: 20px;
-        color: #colors[primary];
+        color: #colors[secondarySub];
     }
     span {
+        color: #colors[secondarySub];
         font-weight: 300;
         font-size: 16px;
     }
     overflow: hidden;
     padding-top: @padding;
     padding-bottom: @padding;
-    border: solid 1px #colors[secondarySub];
-
-    color: rgb(227, 224, 218);
-    background-image: repeating-linear-gradient(-45deg, rgb(34, 34, 34), rgb(34, 34, 34) 3px, rgb(37, 38, 37) 3px, rgb(37, 38, 37) 6px);
-    background-color: initial;
-
     @media @min10 {
+        @footerPadding: 2%;
         justify-content: center;
+        padding-left: @footerPadding;
+        padding-right: @footerPadding;
     }
     @media @min650 {
         justify-content: flex-start;
+        @footerPadding: 20%;
+        padding-left: @footerPadding;
+        padding-right: @footerPadding;
     }
 }
 

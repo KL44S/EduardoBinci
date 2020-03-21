@@ -219,10 +219,12 @@ body {
   padding: 15px;
   color: #ccc;
 }
-.container .section:nth-child(odd) {
+.container .section:nth-child(odd),
+.container .odd-bk {
   background-image: repeating-linear-gradient(45deg, #111, #000 3px, #000 3px, #000 6px);
 }
-.container .section:nth-child(even) {
+.container .section:nth-child(even),
+.container .even-bk {
   background-image: repeating-linear-gradient(-45deg, #151515, #151515 3px, #111 3px, #111 6px);
 }
 .contact {
@@ -238,7 +240,7 @@ body {
   align-items: flex-start;
 }
 .contact-item-group.separator {
-  border-right: solid 1px #ccc;
+  border-right: solid 1px #333;
 }
 .contact-item {
   display: flex;
@@ -249,8 +251,8 @@ body {
 }
 .contact-item h2 {
   margin-bottom: 10px;
-  font-weight: 300;
-  font-size: 22px;
+  font-weight: 400;
+  font-size: 21px;
 }
 @media (min-width: 10px) {
   .contact-item h2 {
@@ -283,32 +285,46 @@ body {
   }
 }
 .footer {
+  border: none;
+}
+.pre-footer {
+  display: flex;
+  padding-top: 15px;
+  margin: 0;
+  justify-content: center;
+}
+.pre-footer img {
+  width: 100px;
+  margin-bottom: -1px;
+}
+.footer-content {
   display: flex;
   font-family: 'Oswald', sans-serif;
   overflow: hidden;
   padding-top: 25px;
   padding-bottom: 25px;
-  border: solid 1px #555;
-  color: #e3e0da;
-  background-image: repeating-linear-gradient(-45deg, #222222, #222222 3px, #252625 3px, #252625 6px);
-  background-color: initial;
 }
-.footer h1 {
+.footer-content h1 {
   font-size: 20px;
-  color: white;
+  color: #555;
 }
-.footer span {
+.footer-content span {
+  color: #555;
   font-weight: 300;
   font-size: 16px;
 }
 @media (min-width: 10px) {
-  .footer {
+  .footer-content {
     justify-content: center;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
 @media (min-width: 650px) {
-  .footer {
+  .footer-content {
     justify-content: flex-start;
+    padding-left: 20%;
+    padding-right: 20%;
   }
 }
 .footer-section {
