@@ -286,6 +286,7 @@ body {
 }
 .footer {
   border: none;
+  margin-top: -3px;
 }
 .pre-footer {
   display: flex;
