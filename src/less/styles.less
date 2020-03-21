@@ -254,6 +254,32 @@ body {
     color: #colors[primarySub];
 }
 
+.container {
+    @primaryColor: #111;
+    @secondaryColor: #151515;
+    @tertiaryColor: #000;
+    @inclination: -45deg;
+    @primaryLineWidth: 3px;
+    @secondaryLineWidth: 6px;
+
+    .section:nth-child(odd) {
+        background-image: repeating-linear-gradient(
+            @inclination * -1,
+            @primaryColor,
+            @tertiaryColor @primaryLineWidth,
+            @tertiaryColor @primaryLineWidth,
+            @tertiaryColor @secondaryLineWidth);
+    }
+    .section:nth-child(even) {
+        background-image: repeating-linear-gradient(
+            @inclination,
+            @secondaryColor, 
+            @secondaryColor @primaryLineWidth, 
+            @primaryColor @primaryLineWidth, 
+            @primaryColor @secondaryLineWidth);
+    }
+}
+
 .contact {
     padding-bottom: 20px;
 }
@@ -314,7 +340,6 @@ body {
     @padding: 25px;
     display: flex;
     font-family: #fonts[oswald];
-    color: #colors[primarySub];
     h1 {
         font-size: 20px;
         color: #colors[primary];
@@ -326,8 +351,18 @@ body {
     overflow: hidden;
     padding-top: @padding;
     padding-bottom: @padding;
-    background-color: #colors[alternative];
     border: solid 1px #colors[secondarySub];
+
+    color: rgb(227, 224, 218);
+    background-image: repeating-linear-gradient(-45deg, rgb(34, 34, 34), rgb(34, 34, 34) 3px, rgb(37, 38, 37) 3px, rgb(37, 38, 37) 6px);
+    background-color: initial;
+
+    @media @min10 {
+        justify-content: center;
+    }
+    @media @min650 {
+        justify-content: flex-start;
+    }
 }
 
 .footer-section {
@@ -374,7 +409,6 @@ body {
     overflow: hidden;
     color: #colors[primarySub];
     border-top: solid 1px #colors[alternative];
-    background-color: #colors[secondary];
     .title {
         display: flex;
         justify-content: center;
@@ -436,7 +470,7 @@ body {
         button {
             @transition: background-color .5s, color .5s;
             padding: 15px;
-            background-color: #colors[secondary];
+            background-color: rgba(0, 0, 0, 0.3);
             border: solid 1px #colors[primarySub];
             color: #colors[primarySub];
             font-weight: 400;

@@ -219,6 +219,12 @@ body {
   padding: 15px;
   color: #ccc;
 }
+.container .section:nth-child(odd) {
+  background-image: repeating-linear-gradient(45deg, #111, #000 3px, #000 3px, #000 6px);
+}
+.container .section:nth-child(even) {
+  background-image: repeating-linear-gradient(-45deg, #151515, #151515 3px, #111 3px, #111 6px);
+}
 .contact {
   padding-bottom: 20px;
 }
@@ -279,12 +285,13 @@ body {
 .footer {
   display: flex;
   font-family: 'Oswald', sans-serif;
-  color: #ccc;
   overflow: hidden;
   padding-top: 25px;
   padding-bottom: 25px;
-  background-color: #333;
   border: solid 1px #555;
+  color: #e3e0da;
+  background-image: repeating-linear-gradient(-45deg, #222222, #222222 3px, #252625 3px, #252625 6px);
+  background-color: initial;
 }
 .footer h1 {
   font-size: 20px;
@@ -293,6 +300,16 @@ body {
 .footer span {
   font-weight: 300;
   font-size: 16px;
+}
+@media (min-width: 10px) {
+  .footer {
+    justify-content: center;
+  }
+}
+@media (min-width: 650px) {
+  .footer {
+    justify-content: flex-start;
+  }
 }
 .footer-section {
   display: flex;
@@ -322,7 +339,6 @@ body {
   overflow: hidden;
   color: #ccc;
   border-top: solid 1px #333;
-  background-color: black;
 }
 @media (min-width: 10px) {
   .section {
@@ -395,7 +411,7 @@ body {
 }
 .index-services .btn button {
   padding: 15px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.3);
   border: solid 1px #ccc;
   color: #ccc;
   font-weight: 400;
