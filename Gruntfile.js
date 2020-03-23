@@ -40,14 +40,22 @@ module.exports = function(grunt) {
                     }
                 }]
               }
+        },
+        exec: {
+            viewsEngine: {
+              cmd: function(firstName, lastName) {
+                return 'ViewEngine\\SimpleHtmlViewsEngine.exe "C:\\Users\\María Victoria\\workspace\\DrBinciWebPage"';
+              }
+            }
         }
     });
   
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-exec');
   
     // Default task(s).
-    grunt.registerTask('default', ['less', 'cssmin', 'uglify']);
+    grunt.registerTask('default', ['less', 'cssmin', 'uglify', 'exec']);
   
   };
