@@ -43,12 +43,44 @@
     };
 
     function createBtnEvents() {
-        var btn = document.getElementById("more");
-        if (btn) {
-            document.getElementById("more").onclick = function() {
-                window.location = "servicios.html";
+        var menuItems = document.getElementsByName("menu-item");
+        if (menuItems) {
+            for (i = 0; i < menuItems.length; i++) {
+                menuItems[i].addEventListener("click", function () {
+                    var scrollTo = this.getAttribute("scroll-to");
+                    smoothScrollTo(scrollTo, 500);
+                });
             };
-        };  
+        };
+    };
+
+    function smoothScrollTo(targetId, duration) {
+        var targetElement = document.getElementById(targetId);
+        if (!targetElement) return;
+
+        var targetPosition = targetElement.getBoundingClientRect().top + window.scrollY - 50;
+        var startPosition = window.scrollY || document.documentElement.scrollTop;
+        var distance = targetPosition - startPosition;
+        var startTime = null;
+
+        function animationStep(currentTime) {
+            if (!startTime) startTime = currentTime;
+            var elapsedTime = currentTime - startTime;
+            var t = elapsedTime / duration;
+            var ease = t < 0.5
+                ? 2 * Math.pow(t, 2)
+                : 1 - Math.pow(-2 * t + 2, 2) / 2;
+
+            window.scrollTo(0, startPosition + distance * ease);
+
+            if (elapsedTime < duration) {
+                requestAnimationFrame(animationStep);
+            } else {
+                window.scrollTo(0, targetPosition);
+            };
+        };
+
+        requestAnimationFrame(animationStep);
     };
 
     function createSidebarEvents() {
