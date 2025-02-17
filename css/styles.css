@@ -270,6 +270,9 @@ body {
 .contact-item span {
   font-weight: 300;
 }
+.contact-item .btn {
+  margin-top: 15px !important;
+}
 .contact-content {
   display: flex;
 }
@@ -438,7 +441,7 @@ body {
 .index-services .bullets ul {
   margin-top: 0;
   padding-left: 20px;
-  list-style-type: circle;
+  list-style-type: disc;
 }
 .index-services .btn {
   margin-top: 10px;

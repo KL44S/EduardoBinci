@@ -52,6 +52,15 @@
                 });
             };
         };
+
+        var chatBtn = document.getElementsByName("chat-btn");
+        if (chatBtn) {
+            for (i = 0; i < chatBtn.length; i++) {
+                chatBtn[i].addEventListener("click", function () {
+                    window.open("https://wa.me/5491134289400", '_blank');
+                });
+            };
+        };
     };
 
     function smoothScrollTo(targetId, duration) {
