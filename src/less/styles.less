@@ -290,8 +290,15 @@ body {
 }
 
 .contact-container {
-    display: flex;
-    justify-content: center;
+    @media @min10 {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    @media @min650 {
+        flex-direction: row;
+    }
 }
 
 .contact-item-group {
@@ -329,6 +336,16 @@ body {
     }
 }
 
+.centered-group {
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+    @media @min650 {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
 .contact-content {
     display: flex;
     @media @min10 {
@@ -337,9 +354,8 @@ body {
         justify-content: unset;
     }
     @media @min650 {
-        flex-direction: row;
-        width: 100%;
         justify-content: space-between;
+        margin-left: 90px;
     }
 }
 
@@ -432,6 +448,8 @@ body {
         padding-right: @padding;
     }
 
+    padding-top: 20px;
+    padding-bottom: 50px;
     overflow: hidden;
     color: #colors[primarySub];
     border-top: solid 1px #colors[alternative];
@@ -453,6 +471,16 @@ body {
         margin-top: 10px;
         display: flex;
         justify-content: center;
+
+        button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                margin-right: 10px;
+            }
+        }
     }
 }
 
@@ -482,6 +510,16 @@ body {
         font-weight: 100;
         padding-top: 10px;
         margin: 5px;
+    }
+
+    .img-me {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        margin-right: 35px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        float: left;
     }
 }
 
@@ -535,9 +573,7 @@ body {
             width: 230px;
         }
 
-        button:hover,
-        button:active,
-        button:focus {
+        button:hover {
             cursor: pointer;
             background-color: #colors[primary];
             border: solid 1px #colors[primary];
@@ -561,9 +597,7 @@ body {
         width: 230px;
     }
 
-    button:hover,
-    button:active,
-    button:focus {
+    button:hover {
         cursor: pointer;
         background-color: #colors[primary];
         border: solid 1px #colors[primary];

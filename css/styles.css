@@ -233,9 +233,17 @@ body {
 .index-services {
   padding-bottom: 20px;
 }
-.contact-container {
-  display: flex;
-  justify-content: center;
+@media (min-width: 10px) {
+  .contact-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+}
+@media (min-width: 650px) {
+  .contact-container {
+    flex-direction: row;
+  }
 }
 .contact-item-group {
   display: flex;
@@ -273,6 +281,16 @@ body {
 .contact-item .btn {
   margin-top: 15px !important;
 }
+.centered-group {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+@media (min-width: 650px) {
+  .centered-group {
+    display: flex;
+    justify-content: space-around;
+  }
+}
 .contact-content {
   display: flex;
 }
@@ -285,9 +303,8 @@ body {
 }
 @media (min-width: 650px) {
   .contact-content {
-    flex-direction: row;
-    width: 100%;
     justify-content: space-between;
+    margin-left: 90px;
   }
 }
 .footer {
@@ -359,6 +376,8 @@ body {
   padding-top: 20px;
 }
 .section {
+  padding-top: 20px;
+  padding-bottom: 50px;
   overflow: hidden;
   color: #ccc;
   border-top: solid 1px #333;
@@ -393,6 +412,14 @@ body {
   display: flex;
   justify-content: center;
 }
+.section .centered-btn button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section .centered-btn button img {
+  margin-right: 10px;
+}
 .introduction {
   display: flex;
   flex-direction: column;
@@ -417,6 +444,15 @@ body {
   font-weight: 100;
   padding-top: 10px;
   margin: 5px;
+}
+.introduction .img-me {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin-right: 35px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  float: left;
 }
 .index-services .bullets {
   display: flex;
@@ -460,9 +496,7 @@ body {
   text-transform: uppercase;
   width: 230px;
 }
-.index-services .btn button:hover,
-.index-services .btn button:active,
-.index-services .btn button:focus {
+.index-services .btn button:hover {
   cursor: pointer;
   background-color: white;
   border: solid 1px white;
@@ -481,9 +515,7 @@ body {
   text-transform: uppercase;
   width: 230px;
 }
-.btn button:hover,
-.btn button:active,
-.btn button:focus {
+.btn button:hover {
   cursor: pointer;
   background-color: white;
   border: solid 1px white;

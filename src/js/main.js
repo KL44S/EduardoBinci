@@ -61,6 +61,37 @@
                 });
             };
         };
+
+        var buttons = document.getElementsByTagName('button');
+        if (buttons) {
+            for (i = 0; i < buttons.length; i++) {
+                var button = buttons[i];
+                button.addEventListener("mouseenter", toggleBtnImage);
+                button.addEventListener("mouseleave", toggleBtnImage);
+                button.addEventListener("mousedown", toggleBtnImage);
+                button.addEventListener("focus", toggleBtnImage);
+                button.addEventListener("blur", toggleBtnImage);
+            };
+        };
+    };
+
+    function toggleBtnImage(event) {
+        button = event.target;
+        var images = button.getElementsByTagName("img");
+        if (images) {
+            var image = images[0];
+            if (image) {
+                src = image.getAttribute("src");
+                newSrc = src;
+
+                if (["mouseenter", "focus", "mousedown"].includes(event.type) && src.includes("white")) {
+                    image.setAttribute("src", src.replace("white", "black"));
+                }
+                else if (["mouseleave", "blur"].includes(event.type) && src.includes("black")) {
+                    image.setAttribute("src", src.replace("black", "white"));
+                };
+            };
+        };
     };
 
     function smoothScrollTo(targetId, duration) {
