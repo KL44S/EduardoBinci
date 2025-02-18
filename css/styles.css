@@ -245,6 +245,19 @@ body {
     flex-direction: row;
   }
 }
+.contact-container iframe {
+  height: 450px;
+}
+@media (min-width: 650px) {
+  .contact-container iframe {
+    width: 70%;
+  }
+}
+@media (min-width: 1650px) {
+  .contact-container iframe {
+    width: 60%;
+  }
+}
 .contact-item-group {
   display: flex;
   flex-direction: column;
@@ -304,7 +317,26 @@ body {
 @media (min-width: 650px) {
   .contact-content {
     justify-content: space-between;
-    margin-left: 90px;
+  }
+}
+@media (min-width: 670px) {
+  .contact-content {
+    padding-left: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .contact-content {
+    padding-left: 20px;
+  }
+}
+@media (min-width: 1000px) {
+  .contact-content {
+    padding-left: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .contact-content {
+    padding-left: 90px;
   }
 }
 .footer {
@@ -582,4 +614,50 @@ body {
   color: white;
   font-weight: 100;
   margin-top: 0px;
+}
+.float-group {
+  top: 75%;
+  left: 95%;
+  z-index: 9999;
+  position: fixed;
+  display: none;
+  flex-direction: column;
+}
+@media (min-width: 650px) {
+  .float-group {
+    left: 86%;
+    display: flex;
+  }
+}
+@media (min-width: 900px) {
+  .float-group {
+    left: 90%;
+    display: flex;
+  }
+}
+@media (min-width: 1000px) {
+  .float-group {
+    left: 92%;
+  }
+}
+@media (min-width: 1200px) {
+  .float-group {
+    left: 93%;
+  }
+}
+@media (min-width: 1400px) {
+  .float-group {
+    left: 94%;
+  }
+}
+@media (min-width: 1650px) {
+  .float-group {
+    left: 95%;
+  }
+}
+.float-group img {
+  width: 64px;
+  height: 64px;
+  margin: 10px;
+  cursor: pointer;
 }
