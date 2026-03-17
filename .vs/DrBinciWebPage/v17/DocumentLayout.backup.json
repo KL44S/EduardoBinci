@@ -1,0 +1,482 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\headers.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\templates\\headers.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\navbar.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\templates\\navbar.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\me.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\templates\\me.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\footer.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\templates\\footer.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\floating.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\templates\\floating.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\templates\\contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\html\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\html\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\js.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\templates\\js.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\less\\styles.less||{28C69EDA-EDF9-4CA8-9EBE-443348B6D916}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\less\\styles.less||{28C69EDA-EDF9-4CA8-9EBE-443348B6D916}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\services.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\templates\\services.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\banner.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\templates\\banner.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\images\\whatsapp-white.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:images\\whatsapp-white.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\images\\whatsapp-black.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:images\\whatsapp-black.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\images\\close.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:images\\close.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\images\\contact.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:images\\contact.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\images\\justice.bk.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:images\\justice.bk.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\me-old.html||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\templates\\me-old.html||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\services-old.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\templates\\services-old.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\banner-old.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\templates\\banner-old.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\less\\grid.less||{28C69EDA-EDF9-4CA8-9EBE-443348B6D916}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\less\\grid.less||{28C69EDA-EDF9-4CA8-9EBE-443348B6D916}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\update.bat||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:update.bat||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\publish.bat||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:publish.bat||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\js\\main.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:js\\main.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\css\\grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\Gruntfile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Gruntfile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAYwBIBAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-18T00:00:28.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "contact.html",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\contact.html",
+              "RelativeDocumentMoniker": "src\\templates\\contact.html",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\contact.html",
+              "RelativeToolTip": "src\\templates\\contact.html",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwCgAAACCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-17T02:12:49.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "styles.less",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\less\\styles.less",
+              "RelativeDocumentMoniker": "src\\less\\styles.less",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\less\\styles.less",
+              "RelativeToolTip": "src\\less\\styles.less",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001682|",
+              "WhenOpened": "2025-02-16T16:04:15.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\html\\index.html",
+              "RelativeDocumentMoniker": "src\\html\\index.html",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\html\\index.html",
+              "RelativeToolTip": "src\\html\\index.html",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwCIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-17T02:13:48.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "me.html",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\me.html",
+              "RelativeDocumentMoniker": "src\\templates\\me.html",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\me.html",
+              "RelativeToolTip": "src\\templates\\me.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-17T02:06:20.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "headers.html",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\headers.html",
+              "RelativeDocumentMoniker": "src\\templates\\headers.html",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\headers.html",
+              "RelativeToolTip": "src\\templates\\headers.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-16T16:12:36.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "js.html",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\js.html",
+              "RelativeDocumentMoniker": "src\\templates\\js.html",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\js.html",
+              "RelativeToolTip": "src\\templates\\js.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-16T16:05:08.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "navbar.html",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\navbar.html",
+              "RelativeDocumentMoniker": "src\\templates\\navbar.html",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\navbar.html",
+              "RelativeToolTip": "src\\templates\\navbar.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-17T03:57:59.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "floating.html",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\floating.html",
+              "RelativeDocumentMoniker": "src\\templates\\floating.html",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\floating.html",
+              "RelativeToolTip": "src\\templates\\floating.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-18T01:56:42.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "footer.html",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\footer.html",
+              "RelativeDocumentMoniker": "src\\templates\\footer.html",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\footer.html",
+              "RelativeToolTip": "src\\templates\\footer.html",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-17T02:12:16.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "whatsapp-white.png -  [Spanish (Mexico)] - PNG [24x24, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\images\\whatsapp-white.png",
+              "RelativeDocumentMoniker": "images\\whatsapp-white.png",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\images\\whatsapp-white.png -  [Spanish (Mexico)] - PNG [24x24, 32 bit, PNG]",
+              "RelativeToolTip": "images\\whatsapp-white.png -  [Spanish (Mexico)] - PNG [24x24, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-02-17T03:46:29.758Z",
+              "EditorCaption": " -  [Spanish (Mexico)] - PNG [24x24, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\js\\main.js",
+              "RelativeDocumentMoniker": "src\\js\\main.js",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\js\\main.js",
+              "RelativeToolTip": "src\\js\\main.js",
+              "ViewState": "AgIAABsAAAAAAAAAAAAkwDcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-16T16:05:15.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "banner.html",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\banner.html",
+              "RelativeDocumentMoniker": "src\\templates\\banner.html",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\banner.html",
+              "RelativeToolTip": "src\\templates\\banner.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-17T03:51:59.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "services.html",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\services.html",
+              "RelativeDocumentMoniker": "src\\templates\\services.html",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\services.html",
+              "RelativeToolTip": "src\\templates\\services.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-17T03:58:01.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "whatsapp-black.png -  [Spanish (Mexico)] - PNG [24x24, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\images\\whatsapp-black.png",
+              "RelativeDocumentMoniker": "images\\whatsapp-black.png",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\images\\whatsapp-black.png -  [Spanish (Mexico)] - PNG [24x24, 32 bit, PNG]",
+              "RelativeToolTip": "images\\whatsapp-black.png -  [Spanish (Mexico)] - PNG [24x24, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-02-17T03:46:31.149Z",
+              "EditorCaption": " -  [Spanish (Mexico)] - PNG [24x24, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "close.png -  [Spanish (Mexico)] - PNG [24x24, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\images\\close.png",
+              "RelativeDocumentMoniker": "images\\close.png",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\images\\close.png -  [Spanish (Mexico)] - PNG [24x24, 32 bit, PNG]",
+              "RelativeToolTip": "images\\close.png -  [Spanish (Mexico)] - PNG [24x24, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-02-17T03:46:24.314Z",
+              "EditorCaption": " -  [Spanish (Mexico)] - PNG [24x24, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "contact.jpg -  [Spanish (Mexico)] - Bitmap [1920x784, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\images\\contact.jpg",
+              "RelativeDocumentMoniker": "images\\contact.jpg",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\images\\contact.jpg -  [Spanish (Mexico)] - Bitmap [1920x784, 24 bit, JPG]",
+              "RelativeToolTip": "images\\contact.jpg -  [Spanish (Mexico)] - Bitmap [1920x784, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-02-17T03:46:21.422Z",
+              "EditorCaption": " -  [Spanish (Mexico)] - Bitmap [1920x784, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "justice.bk.jpg -  [Spanish (Mexico)] - Bitmap [1704x722, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\images\\justice.bk.jpg",
+              "RelativeDocumentMoniker": "images\\justice.bk.jpg",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\images\\justice.bk.jpg -  [Spanish (Mexico)] - Bitmap [1704x722, 24 bit, JPG]",
+              "RelativeToolTip": "images\\justice.bk.jpg -  [Spanish (Mexico)] - Bitmap [1704x722, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-02-17T03:46:13.884Z",
+              "EditorCaption": " -  [Spanish (Mexico)] - Bitmap [1704x722, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "me-old.html",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\me-old.html",
+              "RelativeDocumentMoniker": "src\\templates\\me-old.html",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\me-old.html",
+              "RelativeToolTip": "src\\templates\\me-old.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-16T16:32:24.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "update.bat",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\update.bat",
+              "RelativeDocumentMoniker": "update.bat",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\update.bat",
+              "RelativeToolTip": "update.bat",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000614|",
+              "WhenOpened": "2025-02-16T16:21:57.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "services-old.html",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\services-old.html",
+              "RelativeDocumentMoniker": "src\\templates\\services-old.html",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\services-old.html",
+              "RelativeToolTip": "src\\templates\\services-old.html",
+              "ViewState": "AgIAABEAAAAAAAAAAAAtwC4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-16T16:45:58.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "banner-old.html",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\banner-old.html",
+              "RelativeDocumentMoniker": "src\\templates\\banner-old.html",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\templates\\banner-old.html",
+              "RelativeToolTip": "src\\templates\\banner-old.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-02-28T01:56:38.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "publish.bat",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\publish.bat",
+              "RelativeDocumentMoniker": "publish.bat",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\publish.bat",
+              "RelativeToolTip": "publish.bat",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000614|",
+              "WhenOpened": "2025-02-16T16:21:54.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "grid.less",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\less\\grid.less",
+              "RelativeDocumentMoniker": "src\\less\\grid.less",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\src\\less\\grid.less",
+              "RelativeToolTip": "src\\less\\grid.less",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001682|",
+              "WhenOpened": "2025-02-16T16:07:31.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\css\\styles.css",
+              "RelativeDocumentMoniker": "css\\styles.css",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\css\\styles.css",
+              "RelativeToolTip": "css\\styles.css",
+              "ViewState": "AgIAAMQBAAAAAAAAAAAAANQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-16T15:34:52.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "main.min.js",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\js\\main.min.js",
+              "RelativeDocumentMoniker": "js\\main.min.js",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\js\\main.min.js",
+              "RelativeToolTip": "js\\main.min.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-02-28T01:54:48.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "grid.css",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\css\\grid.css",
+              "RelativeDocumentMoniker": "css\\grid.css",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\css\\grid.css",
+              "RelativeToolTip": "css\\grid.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-16T15:39:06.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Gruntfile.js",
+              "DocumentMoniker": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\Gruntfile.js",
+              "RelativeDocumentMoniker": "Gruntfile.js",
+              "ToolTip": "C:\\Users\\Mar\u00EDa Victoria\\workspace\\DrBinciWebPage\\Gruntfile.js",
+              "RelativeToolTip": "Gruntfile.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-02-28T01:54:41.88Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

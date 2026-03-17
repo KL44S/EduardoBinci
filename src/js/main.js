@@ -46,8 +46,9 @@
         var menuItems = document.getElementsByName("menu-item");
         if (menuItems) {
             for (i = 0; i < menuItems.length; i++) {
-                menuItems[i].addEventListener("click", function () {
-                    var scrollTo = this.getAttribute("scroll-to");
+                menuItems[i].addEventListener("click", function (event) {
+                    event.preventDefault();
+                    var scrollTo = this.getAttribute("href").slice(1);
                     smoothScrollTo(scrollTo, 500);
                 });
             };

@@ -113,6 +113,7 @@ body {
 .navbar-item {
     -webkit-transition: #navbar[backgroundTransition];
     transition: #navbar[backgroundTransition];
+    text-decoration: none;
     span.menu-item {
         color: #colors[secondarySub];
         text-decoration: none;
@@ -232,6 +233,7 @@ body {
     align-items: center;
     -webkit-transition: #navbar[backgroundTransition];
     transition: #navbar[backgroundTransition];
+    text-decoration: none;
     span.menu-item {
         color: #colors[primarySub];
         text-decoration: none;
@@ -336,7 +338,7 @@ body {
         padding-left: @padding;
         padding-right: @padding;
     }
-    h2 {
+    h3 {
         @media @min10 {
             margin-top: 20px;
         }
@@ -346,6 +348,11 @@ body {
         margin-bottom: 10px;
         font-weight: 400;
         font-size: 21px;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+        font-weight: 300;
     }
     span {
         font-weight: 300;
@@ -375,7 +382,7 @@ body {
     }
 
     @media @min650 {
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     @media @min670 {
@@ -399,6 +406,19 @@ body {
     border: none;
 }
 
+.footer-copyright {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-top: solid 1px #colors[primarySub];
+    font-family: #fonts[oswald];
+    span {
+        color: #colors[secondarySub];
+        font-size: 13px;
+        font-weight: 300;
+    }
+}
+
 .pre-footer {
     display: flex;
     padding-top : 15px;
@@ -415,11 +435,17 @@ body {
     @padding: 25px;
     display: flex;
     font-family: #fonts[oswald];
-    h1 {
+    h2 {
         font-size: 20px;
         color: #colors[secondarySub];
     }
     span {
+        color: #colors[secondarySub];
+        font-weight: 300;
+        font-size: 16px;
+    }
+    a {
+        text-decoration: none;
         color: #colors[secondarySub];
         font-weight: 300;
         font-size: 16px;
@@ -494,7 +520,8 @@ body {
         justify-content: center;
         text-transform: uppercase;
         color: #colors[primarySub];
-        h1 {
+        h2 {
+            font-size: 2em;
             font-weight: 400;
             span {
                 font-weight: 300;
@@ -683,7 +710,7 @@ body {
             padding-right: @padding;
         }
 
-        h2 {
+        h3 {
             @media @min10 {
                 margin-top: 20px;
             }
@@ -748,6 +775,7 @@ body {
         width: 64px;
         height: 64px;
         margin: 10px;
+        margin-top: 50px;
         cursor: pointer;
     }
 }

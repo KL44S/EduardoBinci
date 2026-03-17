@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\html",
+    "\\src\\js",
+    "\\src\\less",
+    "\\src\\templates"
   ],
-  "SelectedNode": "\\update.bat",
+  "SelectedNode": "\\src\\templates\\headers.html",
   "PreviewInSolutionExplorer": false
 }
