@@ -455,12 +455,14 @@ body {
     padding-bottom: @padding;
     @media @min10 {
         @footerPadding: 2%;
+        flex-direction: column;
         justify-content: center;
         padding-left: @footerPadding;
         padding-right: @footerPadding;
     }
     @media @min650 {
-        justify-content: flex-start;
+        flex-direction: row;
+        justify-content: space-between;
         @footerPadding: 20%;
         padding-left: @footerPadding;
         padding-right: @footerPadding;
@@ -469,11 +471,28 @@ body {
 
 .footer-section {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     & > div {
-        display: flex;       
+        display: flex;
         flex-direction: column;
+    }
+}
+
+.footer-section + .footer-section {
+    @media @min10 {
+        margin-top: 20px;
+    }
+    @media @min650 {
+        margin-top: 0;
+    }
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    @media @min650 {
+        flex-direction: row;
     }
 }
 
